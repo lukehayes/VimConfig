@@ -19,4 +19,6 @@ Plug 'flazz/vim-colorschemes'
 
 Plug 'junegunn/fzf.vim'
 
+Plug 'lilydjwg/colorizer'
+
 call plug#end()

@@ -17,4 +17,6 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'flazz/vim-colorschemes'
 
+Plug 'junegunn/fzf.vim'
+
 call plug#end()

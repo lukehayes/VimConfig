@@ -21,4 +21,5 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'lilydjwg/colorizer'
 
+Plug 'sirver/ultisnips'
 call plug#end()

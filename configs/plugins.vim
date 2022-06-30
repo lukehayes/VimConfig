@@ -22,4 +22,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'lilydjwg/colorizer'
 
 Plug 'sirver/ultisnips'
+
+Plug 'webfd/vim-haxe'
+
 call plug#end()

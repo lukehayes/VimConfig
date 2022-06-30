@@ -23,5 +23,5 @@ source      ~/.vim_runtime/configs/functions.vim
 source      ~/.vim_runtime/configs/plugin-init.vim
 source      ~/.vim_runtime/configs/plugins.vim
 
-colorscheme gruvbox
+colorscheme zazen
 

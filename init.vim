@@ -12,6 +12,7 @@ set         guioptions-=m " Remove Menubar
 set         guioptions-=L " Remove Scrollbar
 set         guioptions-=r " Remove Scrollbar
 set         hlsearch
+set         cursorline
 set         incsearch " highlight text during search
 set         scrolloff=10 " Move past end of screen
 set         guiligatures=!\"#$%&()*+-./:<=>?@[]^_{\|~

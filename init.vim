@@ -13,6 +13,7 @@ set         guioptions-=L " Remove Scrollbar
 set         guioptions-=r " Remove Scrollbar
 set         hlsearch
 set         incsearch
+set         scrolloff=10 " Move past end of screen
 set         guiligatures=!\"#$%&()*+-./:<=>?@[]^_{\|~
 set         guifont=JetBrainsMono\ 11
 set         statusline=%f\%m%r%h%w%=\ %l\ %p%%\ \%L " :h statusline for flags

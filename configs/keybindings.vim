@@ -54,3 +54,7 @@ nnoremap <leader>j :FZF<cr>
 
 " :Files
 nnoremap <leader>jj :Files<cr>
+
+" Disable highlight after search
+nnoremap <leader><cr> :noh<cr>
+

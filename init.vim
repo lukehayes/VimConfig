@@ -12,6 +12,7 @@ set         guioptions-=m " Remove Menubar
 set         guioptions-=L " Remove Scrollbar
 set         guioptions-=r " Remove Scrollbar
 set         hlsearch
+set         incsearch
 set         guiligatures=!\"#$%&()*+-./:<=>?@[]^_{\|~
 set         guifont=JetBrainsMono\ 11
 set         statusline=%f\%m%r%h%w%=\ %l\ %p%%\ \%L " :h statusline for flags

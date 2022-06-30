@@ -23,4 +23,6 @@ Plug 'lilydjwg/colorizer'
 
 Plug 'sirver/ultisnips'
 
+Plug 'jdonaldson/vaxe'
+
 call plug#end()

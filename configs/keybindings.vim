@@ -1,15 +1,15 @@
 " General
 let mapleader="'"
-nmap <SPACE> :
-nmap <leader>as :colorscheme<space>
-nmap <leader>w :w!<cr>
+nnoremap <SPACE> :
+nnoremap <leader>as :colorscheme<space>
+nnoremap <leader>w :w!<cr>
 map <silent> <leader><cr> :noh<cr>
 
 " Movement
-nmap <silent> <C-h> <C-w>h
-nmap <silent> <C-j> <C-w>j
-nmap <silent> <C-k> <C-w>k
-nmap <silent> <C-l> <C-w>l
+nnoremap <silent> <C-h> <C-w>h
+nnoremap <silent> <C-j> <C-w>j
+nnoremap <silent> <C-k> <C-w>k
+nnoremap <silent> <C-l> <C-w>l
 
 " Buffers
 map <leader>bd :Bclose<cr>
@@ -35,16 +35,22 @@ inoremap " ""<Esc>i
 " Plugins ----------------------------------------------------------------------
 
 " NERDTree
-nmap <leader>nn :NERDTreeToggle<cr>
+nnoremap <leader>nn :NERDTreeToggle<cr>
 
 " Goyo
-nmap <silent> <leader>z :Goyo<cr>
+nnoremap <silent> <leader>z :Goyo<cr>
 
 " BufExplorer
 map <leader>o :BufExplorer<cr>
 
 " Vim Fugitive
-nmap <leader>gg :Git commit -m ""<left>
+nnoremap <leader>gg :Git commit -m ""<left>
 
 " CtrlP
-nmap <leader>j :CtrlP<cr>
+"nnoremap <leader>j :CtrlP<cr>
+
+" FZF
+nnoremap <leader>j :FZF<cr>
+
+" :Files
+nnoremap <leader>jj :Files<cr>

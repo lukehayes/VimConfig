@@ -25,4 +25,6 @@ Plug 'sirver/ultisnips'
 
 Plug 'jdonaldson/vaxe'
 
+Plug 'mattn/emmet-vim'
+
 call plug#end()

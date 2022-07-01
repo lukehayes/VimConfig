@@ -47,14 +47,17 @@ map <leader>o :BufExplorer<cr>
 nnoremap <leader>gg :Git commit -m ""<left>
 
 " CtrlP
-"nnoremap <leader>j :CtrlP<cr>
+nnoremap <leader>j :CtrlP<cr>
 
 " FZF
-nnoremap <leader>j :FZF<cr>
+"nnoremap <leader>j :FZF<cr>
 
 " :Files
 nnoremap <leader>jj :Files<cr>
 
 " Disable highlight after search
 nnoremap <leader><cr> :noh<cr>
+
+" Toggle colorizer colors
+nnoremap <leader>dc :ColorToggle<cr>
 

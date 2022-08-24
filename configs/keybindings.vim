@@ -1,5 +1,5 @@
 " General
-let mapleader="'"
+let mapleader=" "
 nnoremap <SPACE> :
 nnoremap <leader>as :colorscheme<space>
 nnoremap <leader>w :w!<cr>

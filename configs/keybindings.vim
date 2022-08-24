@@ -47,7 +47,7 @@ map <leader>o :BufExplorer<cr>
 nnoremap <leader>gg :Git commit -m ""<left>
 
 " CtrlP
-nnoremap <leader>j :CtrlP<cr>
+" nnoremap <leader>j :CtrlP<cr>
 
 " FZF
 "nnoremap <leader>j :FZF<cr>

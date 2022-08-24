@@ -35,7 +35,7 @@ inoremap " ""<Esc>i
 " Plugins ----------------------------------------------------------------------
 
 " NERDTree
-nnoremap <leader>nn :NERDTreeToggle<cr>
+nnoremap <leader>e :NERDTreeToggle<cr>
 
 " Goyo
 nnoremap <silent> <leader>z :Goyo<cr>
@@ -49,14 +49,24 @@ nnoremap <leader>gg :Git commit -m ""<left>
 " CtrlP
 " nnoremap <leader>j :CtrlP<cr>
 
-" FZF
-"nnoremap <leader>j :FZF<cr>
-
+" FZF --------------------------------------------------------------------------
+"
 " :Files
-nnoremap <leader>jj :Files<cr>
+nnoremap <leader>ff :Files<cr>
+
+" :Rg (Find a word using FZF/RipGrep)
+nnoremap <leader>fw :Rg<cr>
+
+" :Buffers (Use FZF to show all open buffers)
+nnoremap <leader>fb :Buffers<cr>
+
+" :Lines (Use FZF to find a specific line in all files)
+nnoremap <leader>fl :Lines<cr>
+
+" End FZF ----------------------------------------------------------------------
 
 " Disable highlight after search
-nnoremap <leader><cr> :noh<cr>
+nnoremap <leader>h :noh<cr>
 
 " Toggle colorizer colors
 nnoremap <leader>dc :ColorToggle<cr>

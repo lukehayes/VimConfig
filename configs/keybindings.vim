@@ -12,7 +12,7 @@ nnoremap <silent> <C-k> <C-w>k
 nnoremap <silent> <C-l> <C-w>l
 
 " Buffers
-map <leader>bd :Bclose<cr>
+nnoremap <leader>c :Bclose<cr>
 map <leader>ba :1,1000 bd!<cr>
 "map <leader>bd :q<cr>     " Close current buffer
 

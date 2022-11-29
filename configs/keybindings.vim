@@ -34,7 +34,7 @@ inoremap " ""<Esc>i
 " Plugins ----------------------------------------------------------------------
 
 " NERDTree
-nnoremap <leader>nn :NERDTreeToggle<cr>
+nnoremap <leader>e :NERDTreeToggle<cr>
 
 " Goyo
 nnoremap <silent> <leader>z :Goyo<cr>
@@ -49,10 +49,19 @@ nnoremap <leader>gg :Git commit -m ""<left>
 nnoremap <leader>j :CtrlP<cr>
 
 " FZF
-"nnoremap <leader>j :FZF<cr>
+nnoremap <leader>f :FZF<cr>
 
 " :Files
-nnoremap <leader>jj :Files<cr>
+nnoremap <leader>ff :Files<cr>
+
+" :Rg (find words/patterns)
+nnoremap <leader>fw :Rg<cr>
+
+" :Buffers
+nnoremap <leader>fb :Buffers<cr>
+
+" :Lines
+nnoremap <leader>fl :Lines<cr>
 
 " Disable highlight after search
 nnoremap <leader><cr> :noh<cr>

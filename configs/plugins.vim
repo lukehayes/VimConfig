@@ -3,7 +3,7 @@ call plug#begin()
 
 Plug 'scrooloose/nerdtree'
 
-Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
 
 Plug 'junegunn/goyo.vim'
 

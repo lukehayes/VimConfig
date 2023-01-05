@@ -19,10 +19,10 @@ set         guiligatures=!\"#$%&()*+-./:<=>?@[]^_{\|~
 set         guifont=JetBrainsMono\ 11
 set         statusline=%f\%m%r%h%w%=\ %l\ %p%%\ \%L " :h statusline for flags
 
-source      ~/.config/dotfiles/VimConfig/configs/keybindings.vim
-source      ~/.config/dotfiles/VimConfig/configs/functions.vim
-source      ~/.config/dotfiles/VimConfig/configs/plugin-init.vim
-source      ~/.config/dotfiles/VimConfig/configs/plugins.vim
+source      ~/.config/dotfiles/vim/configs/keybindings.vim
+source      ~/.config/dotfiles/vim/configs/functions.vim
+source      ~/.config/dotfiles/vim/configs/plugin-init.vim
+source      ~/.config/dotfiles/vim/configs/plugins.vim
 
 colorscheme zazen
 

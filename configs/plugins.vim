@@ -17,6 +17,8 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'flazz/vim-colorschemes'
 
+Plug 'rafi/awesome-vim-colorschemes'
+
 Plug 'junegunn/fzf.vim'
 
 Plug 'lilydjwg/colorizer'

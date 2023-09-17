@@ -31,4 +31,6 @@ Plug 'mattn/emmet-vim'
 
 Plug 'terryma/vim-multiple-cursors'
 
+Plug 'romgrk/doom-one.vim'
+
 call plug#end()

@@ -15,6 +15,10 @@ map <leader>bd :Bclose<cr>
 map <leader>ba :1,1000 bd!<cr>
 "map <leader>bd :q<cr>     " Close current buffer
 
+" Buffer Navigation
+nnoremap <S-h> :bn<CR>
+nnoremap <S-l> :bp<CR>
+
 " Bash style movement
 cnoremap <C-A>		<Home>
 cnoremap <C-E>		<End>

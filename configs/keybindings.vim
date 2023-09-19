@@ -35,6 +35,9 @@ inoremap < <><Esc>i
 inoremap ' ''<Esc>i
 inoremap " ""<Esc>i
 
+" Cancel higlight after search
+nnoremap <leader>h :noh<CR>
+
 " Plugins ----------------------------------------------------------------------
 
 " NERDTree

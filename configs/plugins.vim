@@ -25,6 +25,8 @@ Plug 'lilydjwg/colorizer'
 
 Plug 'sirver/ultisnips'
 
+Plug 'honza/vim-snippets'
+
 Plug 'jdonaldson/vaxe'
 
 Plug 'mattn/emmet-vim'

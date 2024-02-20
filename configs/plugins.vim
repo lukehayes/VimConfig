@@ -35,4 +35,6 @@ Plug 'terryma/vim-multiple-cursors'
 
 Plug 'romgrk/doom-one.vim'
 
+Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+
 call plug#end()

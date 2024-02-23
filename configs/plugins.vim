@@ -27,6 +27,8 @@ Plug 'mattn/emmet-vim'
 
 Plug 'terryma/vim-multiple-cursors'
 
+Plug 'Tetralux/odin.vim'
+
 
 " ---- Colorschemes
 
